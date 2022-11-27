@@ -1,8 +1,8 @@
-type Animal = { breath: true }
-type Poyouryu = Animal & {  bread : true }
-type Human = Poyouryu & { think: true }
+// type Animal = { breath: true }
+// type Poyouryu = Animal & {  bread : true }
+// type Human = Poyouryu & { think: true }
 
-const yonghee : Human = { bread: true, breath: true, think: true};
+// const yonghee : Human = { bread: true, breath: true, think: true};
 
 // interface A {
 //     breath: true;
@@ -26,7 +26,7 @@ const yonghee : Human = { bread: true, breath: true, think: true};
 // 	shit: () => void;
 // }
 
-// const a: A = { talk() {}, eat() {}, shit() {}, sleep: () => {}}
+// const a: A = { talk() {}, eat() {}, shit() {}, sleep() {} }
 
 // interface A { 
 // 	sleep: () => void;
