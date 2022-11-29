@@ -8,13 +8,13 @@ function a(): void {
 
 //2. 매개변수 함수가 void가 들어간 경우
 // return 값 존재 가능
-function b(callback: () => void): void {
+// function b(callback: () => void): void {
 
-}
+// }
 
-b(() => {
-    return '3';
-})
+// b(() => {
+//     return '3';
+// })
 
 //3. 메서드가 void가 들어간 경우
 // return 값 존재 가능
