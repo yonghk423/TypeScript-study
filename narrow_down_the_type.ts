@@ -5,6 +5,5 @@ function numOrNumArray(a: number | number[]) {
     a.toFixed(3);
   }
 }
-
 numOrNumArray(123);
 numOrNumArray([1, 2, 3]);
